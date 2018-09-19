@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"webpack"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/liyueS777/try-webpack/issues"
   },
-  "homepage": "https://github.com/liyueS777/try-webpack#readme"
+  "homepage": "https://github.com/liyueS777/try-webpack#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "es-abstract": "^1.12.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "htmlparser2": "^3.9.2",
+    "is-date-object": "^1.0.1",
+    "is-symbol": "^1.0.1",
+    "less": "^3.8.1",
+    "lodash": "^4.17.11",
+    "object-keys": "^1.0.12",
+    "style-loader": "^0.23.0"
+  }
 }
